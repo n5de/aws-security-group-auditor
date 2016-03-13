@@ -51,7 +51,7 @@ Example for structure and comments:
 ```json
 {
      # Our shiny web server
-     "123456789012:nexus:sg-8b8aa991:None": {
+     "123456789012:web-server:sg-8b8aa991:None": {
         "rules:-1--1-icmp": {
             "comment": "allow our nagios to ping this server",
             "from_port": "-1", "to_port": "-1", "ip_protocol": "icmp",
