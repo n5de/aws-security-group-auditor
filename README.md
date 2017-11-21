@@ -1,3 +1,7 @@
+# UPDATE
+
+Terraform has now much better support for this. You can even import existing security groups etc into your existing terraform. I'd suggest using terraform instead of my tool.
+
 ## AWS EC2 Security Group Auditor
 
 The purpose of the script is to compare the currently running AWS EC2 security groups with your local, audited and reviewed security groups.
